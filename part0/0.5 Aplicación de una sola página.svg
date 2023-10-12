@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg baseProfile="tiny" height="494" version="1.2" viewBox="0 0 714 494" width="714" xmlns="http://www.w3.org/2000/svg">
+  <text fill="black" font-family="sans-serif" font-size="20" font-weight="bold" x="334.6321614583333" y="30.927083333333258">
+    SPA  </text>
+  <path d="M-401,-342.91666666666674 L-401,0" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <rect fill="white" height="32" stroke="black" stroke-width="1" width="77" x="194.5" y="53.5"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="205.80338541666663" y="74.63541666666653">
+    browser  </text>
+  <rect fill="white" height="32" stroke="black" stroke-width="1" width="77" x="194.5" y="428.5"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="205.80338541666663" y="449.59375">
+    browser  </text>
+  <path d="M33,-342.91666666666674 L33,0" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <rect fill="white" height="32" stroke="black" stroke-width="1" width="65" x="633.5" y="53.5"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="645.00390625" y="74.63541666666653">
+    server  </text>
+  <rect fill="white" height="32" stroke="black" stroke-width="1" width="65" x="633.5" y="428.5"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="645.00390625" y="449.59375">
+    server  </text>
+  <path d="M-536,-330 L-536,-330 L-274,-330 L-266,-322 L-266,-298 L-536,-298 L-536,-330" fill="white" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M-274.01692708333337,-329.5833333333334 L-274.01692708333337,-321.5833333333334 L-266.01692708333337,-321.5833333333334" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="103.51497395833326" y="120.01041666666659">
+    change the file you are requesting spa  </text>
+  <rect fill="white" height="15.333333333333314" width="367.03125000000006" x="265.84960937499994" y="144.29166666666657"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="265.84960937499994" y="157.62499999999991">
+    HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa  </text>
+  <path d="M-400.37695312500006,-268 L32.107421875,-268" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M32,-268 L32,-268 L24,-276 L24,-268 L24,-260 L32,-268" fill="black" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <rect fill="white" height="15.333333333333343" width="74.06901041666669" x="412.33072916666663" y="174.14583333333326"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="412.33072916666663" y="187.4791666666666">
+    HTML-code  </text>
+  <path d="M-400.37695312500006,-238 L32.107421875,-238" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M-400,-238 L-400,-238 L-392,-246 L-392,-238 L-392,-230 L-400,-238" fill="black" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <rect fill="white" height="15.333333333333343" width="402.22656250000006" x="248.25195312499994" y="203.99999999999994"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="248.25195312499994" y="217.3333333333333">
+    HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css  </text>
+  <path d="M-400.37695312500006,-208 L32.107421875,-208" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M32,-208 L32,-208 L24,-216 L24,-208 L24,-200 L32,-208" fill="black" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <rect fill="white" height="15.333333333333343" width="58.776041666666686" x="419.97721354166663" y="233.85416666666663"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="419.97721354166663" y="247.18749999999997">
+    main.css  </text>
+  <path d="M-400.37695312500006,-178 L32.107421875,-178" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M-400,-178 L-400,-178 L-392,-186 L-392,-178 L-392,-170 L-400,-178" fill="black" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M-623,-165 L-623,-165 L-186,-165 L-178,-157 L-178,-133 L-623,-133 L-623,-165" fill="white" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M-186.34440104166669,-164.79166666666669 L-186.34440104166669,-156.79166666666669 L-178.34440104166669,-156.79166666666669" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="15.842447916666629" y="284.8020833333333">
+    changes the file you are requesting and its contents are reactive  </text>
+  <rect fill="white" height="15.333333333333314" width="381.92057291666663" x="258.40494791666663" y="309.0833333333333"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="258.40494791666663" y="322.41666666666663">
+    HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js  </text>
+  <path d="M-400.37695312500006,-103 L32.107421875,-103" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M32,-103 L32,-103 L24,-111 L24,-103 L24,-95 L32,-103" fill="black" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <rect fill="white" height="15.333333333333314" width="38.47005208333337" x="430.13020833333326" y="338.9375"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="430.13020833333326" y="352.2708333333333">
+    spa.js  </text>
+  <path d="M-400.37695312500006,-73 L32.107421875,-73" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M-400,-73 L-400,-73 L-392,-81 L-392,-73 L-392,-65 L-400,-73" fill="black" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <rect fill="white" height="15.333333333333371" width="404.98046875000006" x="246.87499999999994" y="368.79166666666663"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="246.87499999999994" y="382.12499999999994">
+    HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json  </text>
+  <path d="M-400.37695312500006,-43 L32.107421875,-43" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M32,-43 L32,-43 L24,-51 L24,-43 L24,-35 L32,-43" fill="black" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <rect fill="white" height="15.333333333333371" width="353.54817708333337" x="272.59114583333326" y="398.6458333333333"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="272.59114583333326" y="411.97916666666663">
+    [{ content: &#34;HTML is easy&#34;, date: &#34;2019-05-23&#34; }, ...]  </text>
+  <path d="M-400.37695312500006,-13 L32.107421875,-13" fill="none" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <path d="M-400,-13 L-400,-13 L-392,-21 L-392,-13 L-392,-5 L-400,-13" fill="black" stroke="black" stroke-width="1" transform="translate(633.5 428.5)"/>
+  <text fill="black" font-family="Arial" font-size="14" x="495.55338541666663" y="484.92708333333326">
+    www.websequencediagrams.com  </text>
+</svg>

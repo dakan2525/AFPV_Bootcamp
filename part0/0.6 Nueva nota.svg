@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg baseProfile="tiny" height="270" version="1.2" viewBox="0 0 847 270" width="847" xmlns="http://www.w3.org/2000/svg">
+  <text fill="black" font-family="sans-serif" font-size="20" font-weight="bold" x="338.32454427083337" y="30.427083333333314">
+    SPA NEW NOTE  </text>
+  <path d="M-442,-118.41666666666667 L-442,0" fill="none" stroke="black" stroke-width="1" transform="translate(767.5 203.5)"/>
+  <rect fill="white" height="32" stroke="black" stroke-width="1" width="77" x="287.5" y="53.5"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="298.5794270833333" y="74.13541666666667">
+    browser  </text>
+  <rect fill="white" height="32" stroke="black" stroke-width="1" width="77" x="287.5" y="203.5"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="298.5794270833333" y="224.59375">
+    browser  </text>
+  <path d="M33,-118.41666666666664 L33,0" fill="none" stroke="black" stroke-width="1" transform="translate(767.5 203.5)"/>
+  <rect fill="white" height="32" stroke="black" stroke-width="1" width="65" x="767.5" y="53.5"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="779.00390625" y="74.13541666666664">
+    server  </text>
+  <rect fill="white" height="32" stroke="black" stroke-width="1" width="65" x="767.5" y="203.5"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="779.00390625" y="224.59375">
+    server  </text>
+  <path d="M-757,-105 L-757,-105 L-136,-105 L-128,-97 L-128,-73 L-757,-73 L-757,-105" fill="white" stroke="black" stroke-width="1" transform="translate(767.5 203.5)"/>
+  <path d="M-135.60872395833337,-105.08333333333334 L-135.60872395833337,-97.08333333333334 L-127.60872395833337,-97.08333333333334" fill="none" stroke="black" stroke-width="1" transform="translate(767.5 203.5)"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="16.65885416666663" y="119.51041666666666">
+    request to create new note is sent and confirmation is received, SPAs only load new content  </text>
+  <rect fill="white" height="15.333333333333343" width="446.20442708333337" x="339.65104166666663" y="143.79166666666666"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="339.65104166666663" y="157.125">
+    HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa  </text>
+  <path d="M-441.60091145833337,-43 L32.107421875,-43" fill="none" stroke="black" stroke-width="1" transform="translate(767.5 203.5)"/>
+  <path d="M32,-43 L32,-43 L24,-51 L24,-43 L24,-35 L32,-43" fill="black" stroke="black" stroke-width="1" transform="translate(767.5 203.5)"/>
+  <rect fill="white" height="15.333333333333343" width="383.33333333333337" x="371.08658854166663" y="173.64583333333331"/>
+  <text fill="black" font-family="sans-serif" font-size="13.333333333333334" x="371.08658854166663" y="186.97916666666666">
+    201 Created { content: &#34;new note&#34;, date: &#34;2023-10-12&#34; }  </text>
+  <path d="M-441.60091145833337,-13 L32.107421875,-13" fill="none" stroke="black" stroke-width="1" transform="translate(767.5 203.5)"/>
+  <path d="M-441,-13 L-441,-13 L-433,-21 L-433,-13 L-433,-5 L-441,-13" fill="black" stroke="black" stroke-width="1" transform="translate(767.5 203.5)"/>
+  <text fill="black" font-family="Arial" font-size="14" x="629.3697916666666" y="260.4270833333333">
+    www.websequencediagrams.com  </text>
+</svg>
