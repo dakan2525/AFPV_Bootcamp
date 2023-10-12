@@ -22,6 +22,10 @@ const App = () => {
     opinion === "bad" && setFeedback({...feedback, "bad":feedback.bad + 1 });
   }
 
+const total = () => feedback.good + feedback.neutral + feedback.bad;
+const promedio = () => (feedback.good - feedback.bad) / total();
+const positivas = () => (feedback.good /total())*100;
+
   return (
     <div>
       <h1>Give FeedBack</h1>
@@ -37,6 +41,9 @@ const App = () => {
         <li>Good  {feedback.good}</li>
         <li>Neutral  {feedback.neutral}</li>
         <li>Bad  {feedback.bad}</li>
+        <li>All {total()}</li>
+        <li>Average {promedio()} </li>
+        <li>Positive {positivas()}%</li>
       </ul>
     </div>
   )
