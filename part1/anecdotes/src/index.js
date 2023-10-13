@@ -30,21 +30,31 @@ const App = () => {
     }
   ]);
 
+  const points = anecdotes.map((anecdote) => anecdote.votes);
+
+  const moreVotes = (anecdotes.find((anecdote) => anecdote.votes === Math.max(...points)));
 
   function vote() {
     const updatedAnecdotes = [...anecdotes];
     updatedAnecdotes[selected].votes++;
     setAnecdotes(updatedAnecdotes); 
+
   }
 
 
   return (
     <div>
-      {anecdotes[selected].content}
+      <h1>Anecdote of the day</h1>
+      <p>{anecdotes[selected].content}</p>
       <p>Has {anecdotes[selected].votes} votes</p>
       <button onClick={()=>vote()}>Vote</button>
       <button onClick={()=>setSelected(Math.floor(Math.random() * 6))}>Next Anecdote</button>
-
+      <br></br>
+      <br></br>
+      
+      <h2>Anecdote with most votes</h2>
+      <p>{moreVotes.content}</p>
+      <p>Has {moreVotes.votes} votes</p>
     </div>
   );
 };
