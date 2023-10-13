@@ -2,11 +2,11 @@ import { Header } from "./Header"
 import { Content } from "./Content"
 
 
-export const Course = ({courses}) => {
+export const Course = ({course}) => {
 return(
     <>
-        <Header title={courses.name}/>
-        <Content courses={courses.parts}/>
+        <Header title={course.name}/>
+        <Content parts={course.parts}/>
     </>
 )
 }

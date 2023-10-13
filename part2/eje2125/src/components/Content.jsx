@@ -1,14 +1,17 @@
 import { Part } from "./Part"
 
-export const Content = ({courses}) => {
-    let total = 0;
+export const Content = ({parts}) => {
+
+    const total = parts.reduce((count, part) => {
+        console.log('what is happening', count, " + ", part.exercises, " = ", count + part.exercises);
+        return count + part.exercises
+    }, 0);
     
     return(
         <ul>
             {
-            courses.map((course) => {
-                total = total + course.exercises   
-                    return (<Part key={course.id} name={course.name} exercises={course.exercises}/>)       
+            parts.map((part) => {  
+                    return (<Part key={part.id} name={part.name} exercises={part.exercises}/>)       
             })
             }
             <br></br>
