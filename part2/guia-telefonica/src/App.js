@@ -2,13 +2,15 @@ import React, { useState } from 'react'
 import "./App.css"
 
 const App = () => {
-  const [ persons, setPersons ] = useState([
-    { name: 'Arto Hellas',
-      number: 8888  
-    }
-  ]) 
-  const [ newContact, setNewContact ] = useState({name:"", number:""})
+  const [persons, setPersons] = useState([
+    { name: 'Arto Hellas', number: '040-123456' },
+    { name: 'Ada Lovelace', number: '39-44-5323523' },
+    { name: 'Dan Abramov', number: '12-43-234345' },
+    { name: 'Mary Poppendieck', number: '39-23-6423122' }
+  ])
+  const [ newContact, setNewContact ] = useState({name:"", number:"",search:""})
 
+ 
   const handelStore = (event) => {
     event.preventDefault()
     if (persons.find((person) => person.name === newContact.name)) {
@@ -17,42 +19,64 @@ const App = () => {
         setPersons([...persons, newContact] )
         setNewContact(
           { name:" ",
-            number:" "
+            number:" ",
+            search: newContact.search
           })
     }
   }
-
-
   const handelChange = (event) => {
     setNewContact ({...newContact,[event.target.name]: event.target.value});
   }
+  const filterPerson = persons.filter((person) => person.name.toLowerCase().includes(newContact.search.toLocaleLowerCase()) )
 
   return (
     <div>
-      <h2>Phonebook</h2>
+      <h1>Phonebook</h1>
       <form onSubmit={handelStore}>
-        
-        <p>
-        <label id='name'>Name: </label>
-        <input onChange={handelChange} id='name' name='name' value={newContact.name} />
-        </p>
+        <div>
+          <label htmlFor="search">Search: </label>
+          <input
+            type="text"
+            id="search"
+            name="search"
+            value={newContact.search}
+            onChange={handelChange}
+          />
+        </div>
 
-        <p>
-          <label id='number'>Number: </label>
-        <input onChange={handelChange} id='number' name='number' value={newContact.number} />
-        </p>
+        <h2>Add a new</h2>
+        <div>
+          <label htmlFor="name">Name: </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={newContact.name}
+            onChange={handelChange}
+          />
+        </div>
+
+        <div>
+          <label htmlFor="number">Number: </label>
+          <input
+            type="text"
+            id="number"
+            name="number"
+            value={newContact.number}
+            onChange={handelChange}
+          />
+        </div>
 
         <div>
           <button type="submit">Add</button>
         </div>
       </form>
+
       <h2>Numbers</h2>
       {
-        persons.map((person) => {
-          return (
-              <p key={person.name}>{`Name: ${person.name}`}   {`Number: ${person.number}`}</p>
-            )
-        })
+      filterPerson.map((person) => (
+        <p key={person.name}>{`Name: ${person.name}   => Number: ${person.number}`}</p>
+        ))
       }
     </div>
   )
