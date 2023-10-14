@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import "./App.css"
+import { Search } from './components/Search'
+import { AddPerson } from './components/AddPerson'
+import { NumberList } from './components/NumberList'
 
 const App = () => {
   const [persons, setPersons] = useState([
@@ -18,11 +21,9 @@ const App = () => {
       } else {
         setPersons([...persons, newContact] )
         setNewContact(
-          { name:" ",
-            number:" ",
-            search: newContact.search
-          })
+          {name:"", number:"",search:newContact.search})
     }
+    
   }
   const handelChange = (event) => {
     setNewContact ({...newContact,[event.target.name]: event.target.value});
@@ -32,52 +33,16 @@ const App = () => {
   return (
     <div>
       <h1>Phonebook</h1>
+      <Search handelChange={handelChange} newContact={newContact} />
+      
       <form onSubmit={handelStore}>
-        <div>
-          <label htmlFor="search">Search: </label>
-          <input
-            type="text"
-            id="search"
-            name="search"
-            value={newContact.search}
-            onChange={handelChange}
-          />
-        </div>
-
         <h2>Add a new</h2>
-        <div>
-          <label htmlFor="name">Name: </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={newContact.name}
-            onChange={handelChange}
-          />
-        </div>
-
-        <div>
-          <label htmlFor="number">Number: </label>
-          <input
-            type="text"
-            id="number"
-            name="number"
-            value={newContact.number}
-            onChange={handelChange}
-          />
-        </div>
-
-        <div>
-          <button type="submit">Add</button>
-        </div>
+          <AddPerson name="name" title="Name" handelChange={handelChange} value={newContact.name} />
+          <AddPerson name="number" title="Number" handelChange={handelChange} value={newContact.number} />
+        <button type="submit">Add</button>
       </form>
 
-      <h2>Numbers</h2>
-      {
-      filterPerson.map((person) => (
-        <p key={person.name}>{`Name: ${person.name}   => Number: ${person.number}`}</p>
-        ))
-      }
+      <NumberList title="Numbers" filterPerson={filterPerson}  /> 
     </div>
   )
 }
